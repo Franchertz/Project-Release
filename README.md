@@ -1,14 +1,16 @@
 # PROJECT TITLE
 
-### PREDICTIVE RISK MODEL FOR YOUTH RECIDIVISM
+## PREDICTIVE RISK MODEL FOR YOUTH RECIDIVISM
 
-### EXECUTIVE SUMMARY
+
+## EXECUTIVE SUMMARY
 
 This project develops a machine learning model to identify youth at risk of re-offending within the Ontario youth justice system. 
 
 Early identification of high-risk individuals allows case workers to prioritize intervention programs and allocate resources more effectively.
 
 The project demonstrates how predictive analytics could support evidence-based decision-making in youth justice policy.
+
 
 ## POLICY CONTEXT
 
