@@ -1,36 +1,22 @@
-# YOUTH JUSTICE RISK PREDICTION PROTOTYPE
+# PROJECT TITLE
 
-### EARLY RISK IDENTIFICATION FOR YOUTH JUSTICE SERVICES
+### PREDICTIVE RISK MODEL FOR YOUTH RECIDIVISM
 
+### EXECUTIVE SUMMARY
 
-## PROJECT OVERVIEW
+This project develops a machine learning model to identify youth at risk of re-offending within the Ontario youth justice system. 
 
-This project demonstrates how machine learning can support evidence-informed decision-making in youth justice services.
+Early identification of high-risk individuals allows case workers to prioritize intervention programs and allocate resources more effectively.
 
-The prototype model estimates the likelihood of youth reoffending within two years, using a small structured dataset representing youth justice case characteristics.
+The project demonstrates how predictive analytics could support evidence-based decision-making in youth justice policy.
 
-The objective is not to replace professional judgment, but to provide staff with an additional decision-support lens when prioritising interventions and allocating limited program resources.
+## POLICY CONTEXT
 
-This project was developed as a portfolio demonstration of applied data science in a youth justice context.
+Youth reoffending presents operational and social challenges across Ontario’s justice system. 
 
+Data-driven insights can assist government agencies in identifying patterns that may help reduce recidivism.
 
-## POLICY & OPERATIONAL MOTIVATION
-
-Youth justice systems must allocate limited resources (mental health services, employment support, supervision intensity) to youth most in need.
-
-However, frontline staff often must make these decisions without structured analytical support.
-
-This prototype explores how interpretable machine learning models can help:
-
-    •	identify higher-risk youth earlier
-
-    •	prioritise interventions
-
-    •	support case planning decisions
-
-    •	inform program allocation
-
-The approach emphasizes transparency and interpretability, which are critical in justice environments.
+This project demonstrates how analytics could support decision-making within agencies such as the Ontario Ministry of Children, Community and Social Services.
 
 
 ## DATASET
@@ -111,13 +97,13 @@ The project follows a standard machine learning workflow:
 
        Metric	Score
 
-        Accuracy	0.57
+       Accuracy	0.57
 
-        ROC AUC	0.76
+       ROC AUC	0.76
 
-        F1 Score	0.62
+       F1 Score	0.62
 
-        Average Precision	0.64
+       Average Precision	0.64
 
 Given the small dataset (70 records), the model shows meaningful discriminatory ability.
 
@@ -153,9 +139,3 @@ These findings align with existing research in Youth justice.
       ├── New_Updated_Project.ipynb
       ├── dataset.csv
       └── README.md
-
-
-## IMPORTANT NOTE
-
-This project is a demonstration prototype for learning and discussion purposes only and is not intended for operational use without extensive validation and ethical review.
-
